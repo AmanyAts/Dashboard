@@ -1,0 +1,11 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div class="row">
+  <h1 class="mt-4"><img src='../../../assets/Images/frame.png' width="25px" height="25px" />
+    Pre-Order Coffee Dashboard</h1>
+
+  <div class="col"><app-cards [title]="NumOfOrdersT" [num]="numOfOrders" [icon]="mug">1</app-cards></div>
+  <div class="col"> <app-cards [title]="SalesAmount" [num]="SalesAmountNum" [icon]="wallet">1</app-cards></div>
+  <div class="col"> <app-cards [title]="AvgOrderst" [num]="AvgOrder" [icon]="stafrate">1</app-cards> </div>
+  <div class="col"><app-cards [title]="StaffRateT" [num]="RetentionRate" [icon]="circle">1</app-cards> </div>
+</div>

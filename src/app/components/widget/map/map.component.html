@@ -1,0 +1,18 @@
+<h2>Visitor/Branch (Quarterly)</h2>
+<div (click)="flag=false" class="full" id="map">
+    <mat-card *ngIf="flag" class="card">
+        <mat-card class="sub-card">
+            <h3>{{title}}</h3>
+        </mat-card>
+        <br>
+        <mat-card class="sub-card">
+            <h3>{{numOfvistors}}</h3>
+
+        </mat-card>
+
+    </mat-card>
+    <div (mouseenter)="displayInfo()" class="button"></div>
+
+
+</div>
+

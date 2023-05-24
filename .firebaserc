@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "saudia-pre-order-test": {
+      "hosting": {
+        "pre-orderDashboard": [
+          "saudia-pre-order-test"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "saudia-pre-order-test"
+  }
+}

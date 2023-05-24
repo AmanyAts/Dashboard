@@ -1,0 +1,17 @@
+<app-data></app-data>
+<div class="row">
+    <mat-card class="col text">
+        <highcharts-chart *ngIf="isLoaded" [Highcharts]="Highcharts" [options]="chartOptions"
+            style="width: 100%;  display: block;">
+        </highcharts-chart>
+    </mat-card>
+    <!-- <span class="col"></span> -->
+    <mat-card class="col text t2">
+        <highcharts-chart *ngIf="isLoaded" [Highcharts]="Highcharts" [options]="chartOptions2"
+            style="width: 300px;  display: block;">
+        </highcharts-chart>
+    </mat-card>
+
+    <div class="col"> <app-widget-pie></app-widget-pie></div>
+
+</div>

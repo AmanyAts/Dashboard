@@ -1,0 +1,53 @@
+/* div {
+    position: absolute;
+    left: 8.33%;
+    right: 63.68%;
+    top: 11.84%;
+    bottom: 65.92%;
+}
+
+div2 {
+    position: absolute;
+    left: 8.33%;
+    right: 63.68%;
+    top: 38.27%;
+    bottom: 48.5%;
+
+}
+
+h4 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 27px;
+    color: #0D1069;
+}
+
+mat-icon {
+    display: inline-flex;
+    vertical-align: middle;
+    position: absolute;
+    
+}
+@media only screen and (max-width: 600px) {
+    .stats-cards{
+        position: relative;
+        left: 20%;
+        
+
+    }
+    div2 {
+        position: absolute;
+   top: 15.27%;
+
+    
+    }
+
+  } */
+
+  h1{
+    text-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    color: #202f5f;
+
+  }

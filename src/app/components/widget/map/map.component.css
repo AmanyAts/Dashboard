@@ -1,0 +1,71 @@
+
+.full {
+position: absolute;
+width: 300px;
+height: 320px;
+left: 900px;
+top: 230px;
+background: url("../../../../assets/Images/map.PNG");
+background-size: cover;
+/* background: #FFFFFF; */
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 44px;
+  }
+
+.card{
+    position: absolute;
+width: 120px;
+height: 100px;
+left: 122px;
+top: 200px;
+  }
+
+  h2{
+    position: absolute;
+
+    left: 950px;
+top: 200px;
+font-family: 'system-ui';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: rgba(134, 133, 139, 0.81);
+  }
+.button{
+  
+position: absolute;
+ left: 195px;
+top: 150px;
+height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  /* margin-left: 110%; */
+  /* border-radius: 100%;
+  background-color: red;
+  border-color: red;
+  color: red; */
+}
+.sub-card{
+gap: 10px;
+width: 90px;
+height: 10px;
+color: gray;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .full {
+      position: relative;
+left:25%;
+top:22%
+  }
+  h2{
+    position: relative;
+left:25%;
+top:22%;
+
+  }
+
+}
+  
